@@ -5,6 +5,8 @@ let count = 0;
 const value = document.getElementById('#value');
 const btns = document.querySelectorAll('btn');
 
-btns.forEach(function (item) {
-  console.log(item);
+btns.forEach(function (btn) {
+  btn.addEventListener('click', function (e) {
+    console.log(e.currentTarget);
+  });
 });
