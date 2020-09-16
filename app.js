@@ -3,3 +3,6 @@ let count = 0;
 
 // select value and buttons
 const value = document.getElementById('#value');
+const btns = document.querySelectorAll('btn');
+
+console.log(btns);
