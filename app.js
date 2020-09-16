@@ -5,4 +5,6 @@ let count = 0;
 const value = document.getElementById('#value');
 const btns = document.querySelectorAll('btn');
 
-console.log(btns);
+btns.forEach(function (item) {
+  console.log(item);
+});
